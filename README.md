@@ -37,6 +37,35 @@
 - Figma
 - Illustrator
 
+
+## 👀 Installation
+<details>
+<summary>설치방법</summary>
+<div markdown="1"> 
+
+1. https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL 로 이동후 Releases 탭을 클릭합니다.
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/af8f6ff4-3529-4c3f-8cf8-9503b61a489a">
+
+ 
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/818e5304-2eef-4d67-9534-8ebce8d96a6c">
+
+
+2. 릴리즈 된 GitSetKit.dmg 파일을 클릭하여 앱을 다운로드합니다.
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/1f53411e-eeee-4952-adc1-0e1101922310">
+
+
+3. 다운로드가 완료된 dmg 파일을 설치하여 앱을 실행합니다.
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/fb1854f5-5276-4d38-8309-ed4aaae04bc8">
+
+
+</p>
+</div>
+</details>
+
+
+
+
+
   
 
 
