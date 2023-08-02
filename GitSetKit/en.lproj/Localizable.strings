@@ -1,0 +1,94 @@
+/* 
+  Localizable.strings
+  GitSetKit
+
+  Created by 최명근 on 2023/07/09.
+  
+*/
+
+"app_name" = "GitSetKit";
+
+// MARK: - General Texts
+"delete" = "Delete";
+"edit" = "Edit";
+"add" = "Add";
+"cancel" = "Cancel";
+"save" = "Save";
+
+// MARK: - Default Texts
+"default_team_name" = "New Team";
+"default_team_emoticon" = "😀";
+"default_field_type_name" = "Type";
+"default_field_type_option_feat" = "New Features✨";
+"default_field_type_option_fix" = "Bug Fixes🐞";
+"default_field_type_option_refactor" = "Refactors🔧";
+"default_field_type_option_docs" = "Documents📄";
+"default_field_type_option_style" = "Code Styles⭐️";
+"default_field_type_option_test" = "Test Codes🧪";
+"default_field_type_option_chore" = "Etc.🧹";
+"default_field_edit_name" = "Change Logs";
+"default_field_edit_placeholder" = "Type what has been changed. (ex: Context Button Added)";
+
+// MARK: - Commands
+"command_file_new_team" = "New Team";
+"command_file_import" = "Import Team";
+"command_file_export" = "Export Team";
+
+// MARK: - ContentView
+"add_team" = "Add New Team";
+"not_selected" = "Select a team or create one.";
+
+// MARK: - TeamView
+"section_pinned" = "Pinned";
+"section_team" = "Team";
+"pin" = "Pin";
+"unpin" = "Unpin";
+
+// MARK: - ConventionView
+"convention_section_title" = "Convention Settings";
+"convention_section_template" = "Preview";
+"convention_section_block" = "Type Setting";
+// MARK: OptionView
+"option_block_section" = "Block Setting";
+"option_block_type" = "Block Type";
+"option_block_type_constant" = "Fixed Text";
+"option_block_type_constant_desc" = "Place a fixed text to the message template.";
+"option_block_type_text" = "Input";
+"option_block_type_text_desc" = "Place a text input field to the message template.";
+"option_block_type_date" = "Date";
+"option_block_type_date_desc" = "Place a date string to the message template.";
+"option_block_type_option" = "Options";
+"option_block_type_option_desc" = "Place a selectable options to the message template.";
+"option_block_title" = "Block Title";
+"option_block_title_empty" = "No Name";
+"option_block_desc" = "Block Description";
+
+// MARK: - BlockOptionView
+"block_option_type" = "Block Type";
+
+// MARK: - BlockSettingView
+"block_setting_title" = "Block Title";
+
+// MARK: OptionBlockView
+"option_block_field_value" = "Value";
+"option_block_field_short" = "Short Desc";
+"option_block_field_detail" = "Detail Description";
+"option_block_field_empty" = "Press + to add a new option";
+"option_block_field_new" = "New Option";
+"option_block_field_new_value" = "Value";
+"option_block_field_new_desc" = "Description";
+// MARK: InputBlockSettingView
+"input_block_field_text" = "This will be appear as a placeholder in the template.";
+"input_block_field_placeholder" = "# 1. The title must show the work clearly.
+# 2. Do not write the period at the end.
+# ex) feat: Sign In feature added";
+
+// MARK: DateBlockSettingView
+"date_block_field_text" = "Choose a date format. ex>";
+
+// MARK: - TemplateView
+"block_new_field_name" = "New Block";
+"block_context_delete" = "Delete";
+"block_context_move_left" = "Move to left";
+"block_context_move_right" = "Move to right";
+"block_context_rename" = "Rename";

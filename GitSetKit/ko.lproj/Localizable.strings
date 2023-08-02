@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  GitSetKit
+
+  Created by 최명근 on 2023/07/09.
+  
+*/
+
+"app_name" = "GitSetKit";
+
+// MARK: - General Texts
+"delete" = "삭제";
+"edit" = "수정";
+"add" = "추가";
+"cancel" = "취소";
+"save" = "저장";
+
+// MARK: - Default Texts
+"default_team_name" = "새로운 팀";
+"default_team_emoticon" = "😀";
+"default_field_type_name" = "작업";
+"default_field_type_option_feat" = "기능추가✨";
+"default_field_type_option_fix" = "버그수정🐞";
+"default_field_type_option_refactor" = "리팩토링🔧";
+"default_field_type_option_docs" = "문서작업📄";
+"default_field_type_option_style" = "코드스타일⭐️";
+"default_field_type_option_test" = "테스트코드🧪";
+"default_field_type_option_chore" = "기타작업🧹";
+"default_field_edit_name" = "수정내용";
+"default_field_edit_placeholder" = "수정 내용을 입력해주세요. (ex: 알림 버튼 추가 등)";
+
+// MARK: - Commands
+"command_file_new_team" = "새 팀";
+"command_file_import" = "들여오기";
+"command_file_export" = "내보내기";
+
+// MARK: - ContentView
+"add_team" = "팀 추가";
+"not_selected" = "팀을 생성하거나 선택해주세요";
+
+// MARK: - TeamView
+"section_pinned" = "고정";
+"section_team" = "Team";
+"pin" = "고정";
+"unpin" = "고정 해제";
+
+// MARK: - ConventionView
+"convention_section_title" = "컨벤션 설정";
+"convention_section_template" = "미리보기";
+"convention_section_block" = "유형 설정";
+// MARK: OptionView
+"option_block_section" = "블럭 설정";
+"option_block_type" = "블럭 유형";
+"option_block_type_constant" = "고정 텍스트";
+"option_block_type_constant_desc" = "고정 텍스트: 특정 위치에 문자를 고정시킬 수 있는 블럭이에요.";
+"option_block_type_text" = "텍스트";
+"option_block_type_text_desc" = "입력: 사용자가 직접 문자를 입력할 수 있는 블럭이에요.";
+"option_block_type_date" = "날짜";
+"option_block_type_date_desc" = "날짜: 컨벤션에 맞는 날짜 형식을 입력해주는 블럭이에요.";
+"option_block_type_option" = "선택";
+"option_block_type_option_desc" = "선택: 버튼형 옵션을 선택할 수 있는 블럭이에요.";
+"option_block_title" = "블럭 제목";
+"option_block_title_empty" = "이름 없는 필드";
+"option_block_desc" = "Block Description";
+
+// MARK: - BlockOptionView
+"block_option_type" = "Block Type";
+
+// MARK: - BlockSettingView
+"block_setting_title" = "Block Title";
+
+// MARK: OptionBlockView
+"option_block_field_value" = "Value";
+"option_block_field_short" = "Short Desc";
+"option_block_field_detail" = "Detail Description";
+"option_block_field_empty" = "+ 버튼을 눌러 새 옵션을 추가해주세요.";
+"option_block_field_new" = "새 옵션";
+"option_block_field_new_value" = "값";
+"option_block_field_new_desc" = "설명";
+// MARK: InputBlockSettingView
+"input_block_field_text" = "이곳에 입력되는 내용들은 Placeholder로 표시돼요";
+"input_block_field_placeholder" = "# 1. 제목은 변경사항이 무엇인지 명확히 작성
+# 2. 끝에 마침표 미작성
+# 3. '~했음' 대신 수행한 작업을 명시 (ex. '~작업', '~작성' 등)
+# ex) feat: 로그인 기능 추가";
+
+// MARK: DateBlockSettingView
+"date_block_field_text" = "날짜 유형을 선택해주세요. ex>";
+
+// MARK: - TemplateView
+"block_new_field_name" = "새 블록";
+"block_context_delete" = "삭제";
+"block_context_move_left" = "왼쪽으로 이동";
+"block_context_move_right" = "오른쪽으로 이동";
+"block_context_rename" = "이름 수정";

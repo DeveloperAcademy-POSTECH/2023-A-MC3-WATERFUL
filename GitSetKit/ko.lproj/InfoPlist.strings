@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  GitSetKit
+
+  Created by 최명근 on 2023/07/26.
+  
+*/
+
+CFBundleName = "GitSetKit";
