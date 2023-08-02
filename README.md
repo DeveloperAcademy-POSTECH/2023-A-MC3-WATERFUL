@@ -13,22 +13,26 @@
 
 ##  상세화면
 <p align="center">
-<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/b9677772-9a8b-4dae-929a-4d07d5a150bc" width="491" height="320">
-<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/dd632122-7805-45f2-af0e-885dcda001cf" width="491" height="320">
+<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/b9677772-9a8b-4dae-929a-4d07d5a150bc" width="454" height="295">
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/dd632122-7805-45f2-af0e-885dcda001cf" width="454" height="295">
 </p>
 
 <p align="center">
-<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/b55effb6-8948-4dc6-bd3a-f7dd578c0a65" width="491" height="320">
-<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5bb31f85-8bf9-4b4c-9ef8-f11eaf8cd2c2" width="491" height="320">
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/b55effb6-8948-4dc6-bd3a-f7dd578c0a65" width="454" height="295">
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5bb31f85-8bf9-4b4c-9ef8-f11eaf8cd2c2" width="454" height="295">
 </p>
 
 ## 🛠  개발환경
 <img src="https://img.shields.io/badge/macOS-13.3-blue?style=plastic&logo=macosbadge&logoColor=blue"/> <img src="https://img.shields.io/badge/Xcode-14.0-purple?style=plastic&logo=xcodebadge&logoColor=purple"/>
 ## 🖌️ tech & design 스택
 - SwiftUI
-- CoreDate
-- Figma
+- AppKit
+- CoreData
 - Github
+- Figma
+- Illustrator
+
+  
 
 
 
