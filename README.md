@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/a55525fc-7947-49f8-888e-86d8f54a2922"><img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5bb31f85-8bf9-4b4c-9ef8-f11eaf8cd2c2" width="454" height="295">
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/a55525fc-7947-49f8-888e-86d8f54a2922" width="454" height="295"><img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5bb31f85-8bf9-4b4c-9ef8-f11eaf8cd2c2" width="454" height="295">
 </p>
 
 ## 🛠  개발환경
