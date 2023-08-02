@@ -13,11 +13,11 @@
 
 ##  상세화면
 <p align="center">
-<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/b9677772-9a8b-4dae-929a-4d07d5a150bc" width="454" height="295"><img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/dd632122-7805-45f2-af0e-885dcda001cf" width="454" height="295">
+<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/b9677772-9a8b-4dae-929a-4d07d5a150bc" width="454" height="295"> <img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/dd632122-7805-45f2-af0e-885dcda001cf" width="454" height="295">
 </p>
 
 <p align="center">
-<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/a55525fc-7947-49f8-888e-86d8f54a2922" width="454" height="295"><img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5bb31f85-8bf9-4b4c-9ef8-f11eaf8cd2c2" width="454" height="295">
+<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/a55525fc-7947-49f8-888e-86d8f54a2922" width="454" height="295"> <img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5bb31f85-8bf9-4b4c-9ef8-f11eaf8cd2c2" width="454" height="295">
 </p>
 
 ## 🛠  개발환경
