@@ -7,7 +7,7 @@
 
 ## 🍪  촉촉단
 
-|Anna|El Cap|Hazel|Moana|Moro|Ung|
+|[Anna](https://github.com/addlight19)|[El Cap](https://github.com/mgdgc)|[Hazel](https://github.com/Khajeong)|[Moana](https://github.com/chaewon-moana)|[Moro](https://github.com/songmoro)|[Ung](https://github.com/JaeUngJang)|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |<img src = https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/ddfca9ff-5d25-416d-8284-a459872253c7>|<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/c7bc0ec2-bdd8-4ea3-8099-2ba9a04b119f">|<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/11436632-7be6-4085-855f-92dab86f0cc2">|<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/e3e0af11-41d7-43c5-9c60-f11e3a1c9c01">|<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/e746383e-8173-465b-85af-a6e299a7f5fe">|<img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/b1a73cda-5f7f-4154-b4ea-32fa8ebb5ae8">
 
