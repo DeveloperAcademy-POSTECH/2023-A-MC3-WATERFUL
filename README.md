@@ -43,10 +43,7 @@
 <summary>설치방법</summary>
 <div markdown="1"> 
 
-1. https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL 로 이동후 Releases 탭을 클릭합니다.
-<img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/af8f6ff4-3529-4c3f-8cf8-9503b61a489a">
-
- 
+1. https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/releases로 이동 후 원하는 버전의 release를 클릭합니다.
 <img src="https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/818e5304-2eef-4d67-9534-8ebce8d96a6c">
 
 
