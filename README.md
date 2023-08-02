@@ -4,7 +4,7 @@
 팀 컨벤션에 맞게 깃 커밋 메시지를 작성할 수 있도록 도와주는 macOS 유틸리티 애플리케이션
 
 <p align="center">
-  <img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5da36136-a3cb-4f46-afbc-793fd85abd1d"  width="567" height="369">
+  <img src = "https://github.com/DeveloperAcademy-POSTECH/2023-A-MC3-WATERFUL/assets/127464395/5da36136-a3cb-4f46-afbc-793fd85abd1d"  width="567">
 </p>
 
 ## 🍪 촉촉단
