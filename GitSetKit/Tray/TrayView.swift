@@ -11,6 +11,12 @@ import CoreData
 
 struct TrayView: View {
     
+    @FetchRequest(
+        entity: Team.entity(),
+        sortDescriptors: [
+            NSSortDescriptor(keyPath: \Team.touch, ascending: false)]
+    ) var teams: FetchedResults<Team>
+    
     @Environment(\.managedObjectContext) var managedObjectContext
     
     let shared = PersistenceController.shared
@@ -27,16 +33,13 @@ struct TrayView: View {
     
     @State var outputMessage: [String] = []
     
+    @State private var renderId: UUID = UUID()
+    
     var body: some View {
         ZStack{
             Colors.Background.primary
                 .opacity(0.6)
                 .edgesIgnoringSafeArea(.all)
-            //            RoundedRectangle(cornerRadius: 4)
-            //                .frame(width: 340, height: 390)
-            //                .background(Color(red: 246/255, green: 246/255, blue: 246/255))
-            //                .opacity(0.6)
-            //                .ignoresSafeArea()
             
             VStack{
                 TeamSelectedView(teamNames: $teamNames, selectedTeam: $selectedTeam, outputMessage: $outputMessage)
@@ -89,7 +92,6 @@ struct TrayView: View {
                         .ignoresSafeArea()
                 }
                 .frame(width: 316, height: 130)
-                
                 
                 HStack{
                     Text("\(Image(systemName: "keyboard")) [shift+방향키]로 다음으로 넘어갈 수 있어요!")
@@ -169,10 +171,15 @@ struct TrayView: View {
             }
             .frame(width: 340, height: 390)
             
-            
         }
+        .id(renderId)
+        .frame(width: 340, height: 390)
         .onAppear {
             teamNames = shared.readTeam()
+        }
+        .onChange(of: teamNames.count){ newValue in
+            teamNames = shared.readTeam()
+            renderId = UUID()
         }
     }
     

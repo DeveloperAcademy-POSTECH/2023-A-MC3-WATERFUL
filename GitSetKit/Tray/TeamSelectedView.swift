@@ -10,24 +10,15 @@ import SwiftUI
 import CoreData
 
 struct TeamSelectedView: View {
-
-    @State private var isWindow = false
     
     @Binding var teamNames: [Team]
     @Binding var selectedTeam: Team?
     @Binding var outputMessage: [String]
     
-    
-    
-    @State private var isWindowOpen = false
-    
     var body: some View {
         HStack{
             Image("tray_icon")
                 .frame(width: 30, height: 30)
-                .onTapGesture {
-                    isWindowOpen.toggle()
-                }
             
             Text("GitSetKit")
                 .foregroundColor(.black)
@@ -53,10 +44,7 @@ struct TeamSelectedView: View {
         }//Hstack
         .frame(width: 316, height: 32)
         .padding(EdgeInsets(top: 9, leading: 9, bottom: 9, trailing: 9))
-        .sheet(isPresented: $isWindowOpen){
-            ContentView()
-                .frame(width: 850, height: 700)
-        }
+       
     }
 }
 

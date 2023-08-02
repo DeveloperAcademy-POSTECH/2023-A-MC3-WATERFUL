@@ -69,25 +69,27 @@ struct WorkFieldView: View {
                 }//scrollView
             .frame(width: 280, height: 100, alignment: .center)
             
-            
-            
-            
-            
-            
-            
             HStack{
-                Toggle(isOn: $gitCommitOn){
-                    Text(" Git 명령어 포함")
+                VStack{
+                    Divider()
+                        .frame(width: 260, height: 1)
+                        .background(Colors.Fill.codeBlockB)
+                        .offset(x: 0, y: 12)
+                    
+                    Toggle(isOn: $gitCommitOn){
+                        Text(" Git 명령어 포함")
+                    }
+                    .foregroundColor(Color.white)
+                    .toggleStyle(.checkbox)
+                    .offset(x: -80, y:15)
                 }
-                .toggleStyle(.checkbox)
-                .offset(x: -80,y:15)
+                .frame(width: 260)
                 
                 Button(action: {
                     var combinedOutput = outputMessage.joined(separator: " ")
                     if gitCommitOn {
                         combinedOutput = commitMessage + combinedOutput + "\""
                     }
-                    
                     print(combinedOutput)
                     copyToPaste(text: combinedOutput)
                     print("복사됨")
@@ -100,18 +102,19 @@ struct WorkFieldView: View {
                         Image(systemName: "doc.on.doc")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
+                            .foregroundColor(Color.white)
                             .frame(width: 19, height: 18)
                     }
                 }
-                .disabled(selectedFieldIndex != selectedFields.count - 1)
+                //.disabled(selectedFieldIndex != selectedFields.count - 1)
                 .buttonStyle(.plain)
-                .offset(x: 70, y: 10)
+                .offset(x: 0, y: 10)
             }//HStack - copyAndPaste Button View
             .frame(width: 300, height: 20)
             .offset(x:0, y: -30)
             
         }//WorkFieldView
-        .frame(maxWidth: 280)
+        .frame(maxWidth: 260)
     }
     
     //git commit message copied function

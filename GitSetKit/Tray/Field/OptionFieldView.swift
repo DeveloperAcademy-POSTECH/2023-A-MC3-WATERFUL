@@ -35,17 +35,26 @@ struct OptionFieldView: View {
                     let selectedOptionValue = opt.value ?? "optionField 오류"
                     outputMessage[selectedFieldIndex] = selectedOptionValue
                 }, label: {
-                    Text(opt.value ?? "optionField 오류")
+                    VStack{
+                        Text(opt.value ?? "optionField 오류")
+                        if !opt.shortDesc!.isEmpty {
+                            Text(opt.shortDesc ?? "")
+                                .foregroundColor(Colors.Gray.primary)
+                                .font(.system(size: 9))
+                        }
+                    }
+                    
                 })
-                
                 .onHover { isHover in
                     isHoverButtons[idx] = isHover
                 }
                 .buttonStyle(.plain)
                 .frame(width: 72, height: 40)
-                .background(isHoverButtons[idx] ?? false ? Color.blue: Color.white)
+                .background(isHoverButtons[idx] ?? false ? Color.accentColor: Color.white)             
                 .cornerRadius(8)
                 .padding(.bottom, selectedOptions.count > 8 ? 2 : 4)
+            
+                
             }//WrappingHstack
             .foregroundColor(.black)
             

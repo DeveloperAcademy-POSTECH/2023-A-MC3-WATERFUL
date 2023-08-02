@@ -75,12 +75,8 @@ struct FieldView: View {
                         }
                     }
                 }
-                
-                
             }//VStack
             .frame(width: 316, height: 104)
-
-            
         }//navigationView
     }
     
